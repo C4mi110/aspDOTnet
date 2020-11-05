@@ -69,3 +69,6 @@ C:\Users\Admin\source\repos\AspDotNet\AspDotNet\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\Admin\source\repos\AspDotNet\AspDotNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Admin\source\repos\AspDotNet\AspDotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Admin\source\repos\AspDotNet\AspDotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\source\repos\AspDotNet\AspDotNet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\source\repos\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\AspDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\AspDotNet.MvcApplicationPartsAssemblyInfo.cache

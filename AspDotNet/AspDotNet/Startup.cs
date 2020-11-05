@@ -21,7 +21,7 @@ namespace AspDotNet
         {
             services.AddRazorPages();
 
-            services.AddTransient<IProductRepository, FakeProductRepository>();
+            services.AddTransient<IProductRepository, IProductRepository>();
 
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration["Data:SportStoreProducts:ConnectionString"]));
 
