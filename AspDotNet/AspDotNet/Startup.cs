@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WebApplication9.Models;
 
 namespace AspDotNet
 {
@@ -47,6 +48,8 @@ namespace AspDotNet
              name: "default",
              pattern: "{controller=Product}/{action=List}/{id?}")
             );
+
+            SeedData.EnsurePopulated(app);
         }
 
         public Startup(IConfiguration configuration) =>

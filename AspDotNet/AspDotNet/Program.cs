@@ -21,6 +21,7 @@ namespace AspDotNet
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseDefaultServiceProvider(options => options.ValidateScopes = false).UseStartup<Startup>();
                 });
     }
 }

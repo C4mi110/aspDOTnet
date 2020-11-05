@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\AspDotNet\\AspDotNet\\AspDotNet.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\aspDOTnet\\AspDotNet\\AspDotNet\\AspDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\AspDotNet\\AspDotNet\\AspDotNet.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\aspDOTnet\\AspDotNet\\AspDotNet\\AspDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\AspDotNet\\AspDotNet\\AspDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\aspDOTnet\\AspDotNet\\AspDotNet\\AspDotNet.csproj",
         "projectName": "AspDotNet",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\AspDotNet\\AspDotNet\\AspDotNet.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\aspDOTnet\\AspDotNet\\AspDotNet\\AspDotNet.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\AspDotNet\\AspDotNet\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\aspDOTnet\\AspDotNet\\AspDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
