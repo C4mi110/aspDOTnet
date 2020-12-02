@@ -1,0 +1,33 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Edycja";
+    Layout = "_AdminLayout";
+}
+<form asp-action="Edit" asp-controller="Admin" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label asp-for="Name">
+        </label>
+        <div><span asp-validation-for="Name"></span></div>
+        <input class="form-control" asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Description">Description</label>
+        <div><span asp-validation-for="Name"></span></div>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <div>
+        <label asp-for="Category"></label>
+        <div><span asp-validation-for="Name"></span></div>
+        <input asp-for="Category" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Price"></label>
+        <div><span asp-validation-for="Name" ></span></div>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div>
+        <button type="submit">Save</button>
+        <a asp-action="Index">Cancel</a>
+    </div>
+</form>
